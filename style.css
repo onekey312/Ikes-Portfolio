@@ -1,0 +1,189 @@
+/* Global settings */
+
+  
+/* Fonts */
+body {
+    padding: 20px;
+    background-color: #17153b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: snow;
+    clear:both;
+}
+
+h2 {
+    color: #C8ACD6;
+}
+
+h3 {
+    color: #C8ACD6;
+}
+
+h4 {
+    color: #C8ACD6;
+}
+
+p {
+    color: #C8ACD6;
+}
+
+/*Icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: snow;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+/* Left site Information about Person */
+.left-card {
+    float: left;
+    position: relative;
+    display: inline-block;
+
+    background-color: #2E236C;
+    border-radius: 20px;
+    height: 900px;
+    width: 40%;
+    margin: 20px 20px 20px 20px;
+    padding: 20px
+}
+
+#name {
+    padding-top: 60px;
+}
+.profil-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+}
+
+/* socail + techstack felxbox */
+
+.social-felxbox{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    gap:25px
+}
+#techstack {
+    height: 120px;
+}
+
+#techstack-project {
+    height: 80px;
+    float: right;
+}
+
+/* Right site Project showcase */
+.right-card {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 20px;
+    margin: 20px 20px 20px;
+}
+
+.project-item {
+    background-color: #2E236C;
+    border-radius: 20px;
+    width: 100%;
+    height: 420px;
+    padding: 20px;
+}
+
+.project-text {
+    display: inline-block;
+    float: left;
+}
+
+.project-img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    clear:both;
+}
+
+.techstack {
+    display: flex;
+    gap:20px;
+}
+
+.techstack-project {
+    display: flex;
+    gap:20px;
+    float: right;
+
+}
+
+
+
+
+/* Responsive */
+
+@media (max-width: 1255px) {
+    /* Left site- Responsive Information about Person */
+    .left-card {
+        float: left;
+        position: relative;
+        display: block;
+        height: 400px;
+        width: 100%;
+        margin: 20px 20px 20px 20px;
+    }
+
+    /*  Responsive right siteProject showcase */
+    .right-card {
+        
+        width: 100%;
+        display: inline-block;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin-left: 20px;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .project-img {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        clear:both;
+    }
+
+    h2 {
+        color: #C8ACD6;
+        display: inline-block;
+        float: left;
+    }
+
+    h4 {
+        color: #C8ACD6;
+        float: left;
+    }
+
+    #name {
+        padding-top: 20px;
+    }
+
+    #techstack {
+        display: none;
+        
+    }
+
+    
+}
